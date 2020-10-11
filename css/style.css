@@ -1,0 +1,129 @@
+body {
+    background: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+.apicontainer {
+    padding: 1rem;
+    background: white;
+    border: 1px solid lightgrey;
+    margin: 0 auto;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+.wait {
+    width: 1%;
+    color: black;
+    background-color: green;
+    font-size: 3em;
+    padding: 0.5em;
+    text-align: center;
+    margin: 0 auto;
+    animation-name: bar;
+    animation-duration: 2s;
+}
+
+@keyframes bar {
+    0%   {width: 0%;}
+    10%  {width: 9%;}
+    20%  {width: 18%;}
+    30%  {width: 27%;}
+    40%  {width: 36%;}
+    50% {width: 45%;}
+    60% {width: 54%;}
+    70% {width: 63%;}
+    80% {width: 72%;}
+    90% {width: 81%;}
+    100% {width: 90%;}
+}
+
+.q2apiimage {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.q2error {
+    color: red;
+}
+
+.q2a{
+   text-decoration: none;
+}
+
+.q2apiresult {
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+    padding: 1em;
+    width: 90%;
+    max-width: 500px;
+    background: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%);
+    border: 1px solid grey;
+    border-radius: 1rem;
+}
+
+.q2innerresult1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.q2innerresult2 {
+   text-align: center;
+}
+
+.q2error {
+    color: red;
+    text-align: center;
+    font-size: 2em;
+}
+
+.q3backto{
+    text-decoration: none; 
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.q3apiimage {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.q3error {
+    color: red;
+    text-align: center;
+    background-color: black;
+}
+
+.q3apiresult {
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+    padding: 1em;
+    width: 90%;
+    max-width: 500px;
+    background: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%);
+    border: 1px solid grey;
+    border-radius: 1rem;
+}
+
+.q3innerresult1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.q3innerresult2 {
+    font-size: 1.5em;
+    word-wrap: break-word;
+}
