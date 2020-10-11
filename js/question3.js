@@ -22,7 +22,7 @@ async function getGameDetails() {
             <img src="${game.background_image}" class="q3apiimage"></img><div class="q3innerresult1">
             ${game.name}</div>
             <div class="q3innerresult2"><b>Rating:</b>${game.rating}</div>
-            <div class="q3innerresult2"><b>Website:</b>${game.website}</div>
+            <div class="q3innerresult2"><b>Website:</b><a href="${game.website}" target="_blank">${game.website}</a></div>
             <div class="q3innerresult2"><b>Developers:</b>${developersTxt}</div>
         </div>`;            
         apiResultsContainer.innerHTML=tempApiResultsContainer;        
